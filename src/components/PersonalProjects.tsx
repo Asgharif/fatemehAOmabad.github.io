@@ -24,6 +24,7 @@ export default function PersonalProjects() {
                   </li>
                 ))}
               </ul>
+              {project.note && <p className="project-note">{project.note}</p>}
               {project.link && (
                 <a className="project-link" href={project.link} target="_blank" rel="noreferrer">
                   View project →

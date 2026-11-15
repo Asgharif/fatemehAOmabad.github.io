@@ -1,12 +1,12 @@
 # fatemehAOmabad.github.io
 
-My personal portfolio website — a single-page React + TypeScript site built with Vite.
+My personal portfolio website: a single-page React + TypeScript site built with Vite.
 
 ## Stack
 
 - React + TypeScript
 - Vite
-- Plain CSS (no framework) — dark, "modern tech" theme
+- Plain CSS (no framework) with a dark, "modern tech" theme
 
 ## Development
 
@@ -20,7 +20,7 @@ npm run lint      # ESLint
 
 ## Content
 
-All editable copy — name, bio, skills, experience, projects, email — lives in
+All editable copy (name, bio, skills, experience, projects, email) lives in
 [`src/content.ts`](src/content.ts). Edit that file rather than the components
 to update the page.
 
@@ -29,8 +29,8 @@ The profile photo is read from `src/content.ts` → `profile.photo`, pointing at
 the import) to change it.
 
 Section order, anchor ids, nav labels, and heading numbering (01, 02, ...) are
-all derived from the single list in [`src/sections.ts`](src/sections.ts) —
-reorder or add a section there rather than editing numbers by hand.
+all derived from the single list in [`src/sections.ts`](src/sections.ts).
+Reorder or add a section there rather than editing numbers by hand.
 
 ## Deployment
 
