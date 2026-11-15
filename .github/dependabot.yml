@@ -8,8 +8,19 @@ updates:
       npm-dependencies:
         patterns:
           - '*'
+        update-types:
+          - minor
+          - patch
+    ignore:
+      # Major upgrades (React, Vite, TypeScript, ESLint) need manual migration
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
 
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: weekly
+    groups:
+      github-actions:
+        patterns:
+          - '*'
