@@ -90,6 +90,14 @@ export const personalProjects: Project[] = [
     link: 'https://github.com/Asgharif/tradie-toolkit',
     note: "The code is private while I give it a final review. It'll be public soon.",
   },
+  {
+    name: 'Pixel Tiling website',
+    period: '2026',
+    description:
+      'A website for Pixel Tiling, a tiling and waterproofing business in Christchurch. Plain HTML, CSS and JavaScript with no build step, so it loads fast on a phone. It has a filterable gallery of recent jobs, a quote form, a planning guide for homeowners, and business details that Google can read. It links to the tile calculator, which fills in the quote form with the estimate.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'SEO', 'Accessibility'],
+    note: 'Going live soon at pixeltiling.co.nz.',
+  },
 ]
 
 export const hobbies: string[] = []
