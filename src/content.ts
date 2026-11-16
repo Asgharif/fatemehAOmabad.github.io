@@ -94,8 +94,8 @@ export const personalProjects: Project[] = [
     name: 'Pixel Tiling website',
     period: '2026',
     description:
-      'A website for Pixel Tiling, a tiling and waterproofing business in Christchurch. Plain HTML, CSS and JavaScript with no build step, so it loads fast on a phone. It has a filterable gallery of recent jobs, a quote form, a planning guide for homeowners, and business details that Google can read. It links to the tile calculator, which fills in the quote form with the estimate.',
-    tech: ['HTML', 'CSS', 'JavaScript', 'SEO', 'Accessibility'],
+      'A website for Pixel Tiling, a tiling and waterproofing business in Christchurch. Built with Angular and server-side rendering, so pages load quickly and Google can read them. It has a filterable gallery of recent jobs, a quote form, and a planning guide that helps homeowners understand tiling costs before they book.',
+    tech: ['Angular', 'TypeScript', 'SCSS', 'Server-side rendering', 'SEO'],
     note: 'Going live soon at pixeltiling.co.nz.',
   },
 ]
